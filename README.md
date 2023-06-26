@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p> <h1 align="center">Projeto React-calculadora</h1></p>
 
-## Available Scripts
+<p align="center">
+    <img width="700" src="https://github.com/SuellenDiass/react-calculadora/assets/102911341/6ccc1299-2061-4749-9176-ad65b33b12bb">
+</p>
 
-In the project directory, you can run:
+<p align="center">Seja redirecionado à página do 
+<a href="" target="_blank">projeto</a></p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p> <h2 align="center">Etapas do projeto</h2></p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Descrição do projeto 
 
-### `npm test`
+<p align="justify">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Essas etapas fornecem uma visão geral de como o projeto da calculadora foi desenvolvido.Certifique-se de importar corretamente os componentes e estilos necessários para que o projeto funcione corretamente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] Primeiro, foram criados os componentes básicos: Input e Button, responsáveis por exibir a entrada atual e os botões da calculadora, respectivamente.
 
-### `npm run eject`
+- [x] Em seguida, foi criado o arquivo styles.js para definir os estilos do aplicativo, como a estilização do contêiner principal, do conteúdo da calculadora e das linhas e colunas da disposição dos botões.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [x] O componente principal App foi criado, onde o estado da calculadora foi definido usando o Hook useState. Foram criadas as variáveis currentNumber para armazenar o número atual, firstNumber para armazenar o primeiro número da operação, e operation para armazenar o tipo de operação selecionada.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Foram definidas as funções de manipulação de eventos, como handleOnClear para limpar a calculadora, handleAddNumber para adicionar números à entrada atual e as funções handleSumNumbers e handleMinusNumbers para lidar com a adição e subtração, respectivamente.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [x] As funções handleMultiplyNumbers e handleDivideNumbers foram adicionadas para lidar com a multiplicação e divisão, respectivamente.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [x] Foi implementada a função handleEquals, que é chamada quando o botão de igual é pressionado. Essa função verifica se existem um primeiro número, uma operação e um número atual válidos, e realiza a operação correspondente, chamando as funções apropriadas.
 
-## Learn More
+- [x] No retorno do componente App, o layout da calculadora foi estruturado utilizando os componentes estilizados Container, Content e Row. Os botões foram colocados em linhas e colunas usando o componente Row.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] Por fim, o componente Footer foi adicionado ao final do retorno do componente App para exibir o rodapé com o texto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Observações:
 
-### Code Splitting
+Comandos utilizados:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1 Verificar se o nodejs está instalado comando: node -v e npm -v
 
-### Analyzing the Bundle Size
+2 Instalar o create React App comando: npm install -g create-react-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3 Criar projeto com react app comando: npx create-react-app calculadora
 
-### Making a Progressive Web App
+4 Iniciar servidor de desenvolvimento do projeto comando: cd calculadora  npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5 Instalar as dependências comando : npm install
 
-### Advanced Configuration
+6 Styled Components: Uma biblioteca que permite escrever CSS no JavaScript, facilitando a estilização de componentes React. Ela oferece uma abordagem mais modular e encapsulada para estilização, comando: 
+npm install styled-components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+7 Iniciar o projeto: npm start
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### No arquivo passo-a-passo-rodar-react.md tem orientações como abrir um projeto pronto em react pela primeira vez no seu pc.
 
-### `npm run build` fails to minify
+## Tecnologias utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html" width="40" height="40"/> </a> 
+
+<a href="#" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css" width="40" height="40"/> </a> 
+
+<a href="#" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="html" width="40" height="40"/> </a> 
+
+<a href="#" target="_blank"> <img src="https://camo.githubusercontent.com/ee5225ba7c4338f1a1c10121ec32c396e1a4a2f5b0b58b6afd6d5c56ff5d6196/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7673636f64652f7673636f64652d6f726967696e616c2d776f72646d61726b2e737667" alt="firebase" width="40" height="40"/> </a>
+
+###
+
+#### Curso React da Dio.me administrado pelo mentor Pablo 
+Henrique/ Desenvolvedor Full Stack
+
+[DIO](https://www.dio.me/).
+
+
+
+
+
+
