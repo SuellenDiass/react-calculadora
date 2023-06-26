@@ -2,7 +2,7 @@
 <p> <h1 align="center">Projeto React-calculadora</h1></p>
 
 <p align="center">
-    <img width="700" src="">
+    <img width="700" src="https://github.com/SuellenDiass/react-calculadora/assets/102911341/6ccc1299-2061-4749-9176-ad65b33b12bb">
 </p>
 
 <p align="center">Seja redirecionado à página do 
