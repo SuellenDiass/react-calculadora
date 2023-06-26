@@ -2,7 +2,7 @@
 <p> <h1 align="center">Projeto React-calculadora</h1></p>
 
 <p align="center">
-    <img width="700" src="https://github.com/SuellenDiass/css-listagem-youtube-grid/assets/102911341/b440a4cc-2634-4095-ac08-76ed5b8cdcbf">
+    <img width="700" src="">
 </p>
 
 <p align="center">Seja redirecionado à página do 
@@ -41,12 +41,18 @@ Observações:
 Comandos utilizados:
 
 1 Verificar se o nodejs está instalado comando: node -v e npm -v
+
 2 Instalar o create React App comando: npm install -g create-react-app
+
 3 Criar projeto com react app comando: npx create-react-app calculadora
+
 4 Iniciar servidor de desenvolvimento do projeto comando: cd calculadora  npm start
+
 5 Instalar as dependências comando : npm install
+
 6 Styled Components: Uma biblioteca que permite escrever CSS no JavaScript, facilitando a estilização de componentes React. Ela oferece uma abordagem mais modular e encapsulada para estilização, comando: 
 npm install styled-components
+
 7 Iniciar o projeto: npm start
 
 #### No arquivo passo-a-passo-rodar-react.md tem orientações como abrir um projeto pronto em react pela primeira vez no seu pc.
