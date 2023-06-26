@@ -55,6 +55,7 @@ npm install styled-components
 
 7 Iniciar o projeto: npm start
 
+
 #### No arquivo passo-a-passo-rodar-react.md tem orientações como abrir um projeto pronto em react pela primeira vez no seu pc.
 
 ## Tecnologias utilizadas
