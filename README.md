@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">Seja redirecionado à página do 
-<a href="" target="_blank">projeto</a></p>
+<a href="https://lucky-lebkuchen-d591df.netlify.app/" target="_blank">projeto</a></p>
 
 
 <p> <h2 align="center">Etapas do projeto</h2></p>
